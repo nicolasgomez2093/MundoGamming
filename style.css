@@ -1,0 +1,360 @@
+.logo-nav {
+    width: 180px;
+}
+
+.texto-nav {
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 1.3rem;
+}
+
+.bg-button {
+    background-color: #3c0080;
+    width: 77px;
+    height: 25px;
+    padding-bottom: 28px;
+}
+
+.contenedor-inicio {
+    margin-top: 4rem;
+    /* height: 600px; */
+    background-image: url(./img/fondo-inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.texto-titulo-inicio {
+    font-family: 'Monda', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 65px;
+    color: #72ea24;
+    text-align: left;
+    padding-top: 4rem;
+}
+
+.texto-bajada-inicio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+.contenedor-articulos {
+    background-color: rgb(26, 18, 29);
+    padding-bottom: 3rem;
+}
+
+.etiqueta-nota {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #f8f9fa;
+    background-color: #3c0080;
+}
+
+.etiqueta-nota:hover {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #3c0080;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(221, 221, 221);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.titulo-articulo-inicio {
+    color: #8f75ff;
+    font-family: 'Monda', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.titulo-articulo-inicio:hover {
+    text-decoration: none;
+    color: #d2c8ff;
+}
+
+.texto-articulo-inicio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.img-overlay:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    opacity: 0.41;
+    transition: ease-in 0.16s;
+}
+
+.enlace-nota-articulo {
+    text-decoration: none;
+}
+
+.enlace-articulo {
+    color: #72ea24;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.enlace-articulo:hover {
+    color: #d2c8ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.estilo-comparti {
+    color: #72ea24;
+
+}
+
+.boton-todos-articulos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3c0080;
+    width: 200px;
+    height: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+}
+
+.boton-todos-articulos:hover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #777777;
+    width: 200px;
+    height: 25px;
+    padding-bottom: 25px;
+    position: absolute;
+}
+
+hr.hr-articulos {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #72ea24;
+    width: 100%;
+}
+
+.contenedor-subscribite {
+    background-color: #433b49;
+    padding-bottom: 1.5rem;
+}
+
+.titulo-mailing {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    color: rgb(221, 221, 221);
+    padding-top: 3rem;
+}
+
+.subtitulo-mailing {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.label-formulario {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(221, 221, 221);
+}
+
+.input-formulario {
+    background-color: #716779;
+    border: 0;
+    width: 85%;
+}
+
+.input-formulario::placeholder {
+    color: #f8f9fa;
+    font-style: italic;
+}
+
+.input-formulario:focus::placeholder {
+    color: #716779;
+    font-style: italic;
+}
+
+.boton-formulario {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3c0080;
+}
+
+.boton-formulario:hover {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background-color: #777777;
+}
+
+
+
+.contenedor-footer {
+    background-color: black;
+}
+
+.redes-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+
+.copy-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: white;
+    padding-bottom: .6rem;
+}
+
+.icono-redes-footer {
+    font-size: 1.8rem;
+    color: rgb(221, 221, 221);
+}
+
+.icono-redes-footer:hover {
+    color: #777777;
+}
+
+.borde-botton-verde {
+    border-bottom: #72ea24;
+    border-bottom-style: solid;
+    border-width: 1.3px;
+}
+
+.registro-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 500;
+    color: white;
+    padding-bottom: .6rem;
+    padding-top: 1rem;
+}
+
+.link-reg{
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+}
+
+.btn-morado{
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #3c0080;
+    height: 25px;
+    padding-bottom: 28px;
+}
+
+.btn-gris{
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: grey;
+    height: 25px;
+    padding-bottom: 28px;
+}
+
+.contenedor-chico{
+    background-image: url(./img/fondo-chico.png) ;
+}
+
+form .modal-footer{
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    border-top: 0;
+}
+.monda-morado{
+    font-family: 'Monda', sans-serif;
+    color: #3c0080;
+}
+
+form .copy-footer{
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.modal-header{
+    border-bottom: 0;
+}
+
+.contenedor-modal{
+background: linear-gradient(180deg, #3c0080 0%, rgb(26 18 29) 100%);
+}
+
+.login{
+    border-style: solid;
+    border-color: #f8f9fa;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+.login .modal-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.login .modal-body{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.contenedor-reg {
+    margin-top: 4rem;
+    /* height: 600px; */
+    background-image: url(./img/bg-login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.titulo-reg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+}
+.subtitulo-reg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+    margin-right: 5px;
+}
+
+
+.texto-reg{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+}
+

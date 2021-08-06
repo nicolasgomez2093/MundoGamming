@@ -1,0 +1,10 @@
+Antes de empezar:
+1- git pull
+2- git checkout -b "nombre de rama" sin comillas
+
+Cuando finalizas la rama
+1- git add .
+2- git commit -m "mensaje del commit"
+3- moverse al main
+4- git merge "nombre de rama" sin comillas
+5- git push origin main

@@ -1,0 +1,38 @@
+.contenedor-inicio {
+    margin-top: 4rem;
+    /* height: 600px; */
+    background-image: url(./img/fondo-inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.contenedor-articulos {
+    background-color: rgb(26, 18, 29);
+    padding-bottom: 3rem;
+}
+
+
+.titulo-contacto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+}
+
+.boton-contacto {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background-color: #3c0080;
+}
+    
+.boton-contacto:hover {
+    font-family: 'Monda', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    background-color: #777777;
+}

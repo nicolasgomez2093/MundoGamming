@@ -1,0 +1,143 @@
+.contenedor-nosotros {
+    margin-top: 4rem;
+
+    /* height: 600px; */
+    background-image: url(./img/nosotros/nosotros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    position: relative;
+}
+
+.texto-estructura {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+.span-bajada {
+    width: 35%;
+    height: 3px;
+    background-color: #72ea24;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.span-bajada-2 {
+    width: 35%;
+    height: 3px;
+    background-color: #72ea24;
+    margin-bottom: 1rem;
+}
+
+.titulo-bajada-nosotros {
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #d2c8ff;
+}
+
+.bajada-foto-nosotros {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: white;
+
+}
+
+.cien {
+    height: 400px;
+    width: 100%;
+    object-fit: none;
+
+}
+
+.imagen-chica-sala {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contenedor-quienes {
+    background-color: rgb(255, 255, 255);
+}
+
+.bg-gris-oscuro {
+    background-color: rgb(198, 186, 206);
+
+}
+
+.titulo-quienes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 45px;
+    color: #3c0080;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.subtitulo-quienes {
+    font-family: 'Monda', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #707070;
+}
+
+.texto-quienes {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.img-cirular {
+    width: 150px;
+    height: 150px;
+    background-color: #707070;
+    filter: grayscale(100%);
+    object-position: center;
+}
+
+.img-cirular:hover {
+    transform: scale(1.2);
+    background-color: #707070;
+    filter: none;
+    transition: ease-out .2s;
+}
+
+.nombre-perfil {
+    font-family: 'Monda', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #3c0080;
+    margin-top: 1.5rem;
+}
+
+.cargo-perfil {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85rem;
+    font-weight: 700;
+    color: #5e5e5e;
+}
+
+.descipcion-perfil {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .81rem;
+    font-weight: 400;
+}
+
+.redes-perfil {
+    font-size: 1.5rem;
+    color: #707070;
+}
+
+.redes-perfil:hover {
+    font-size: 1.5rem;
+    color: #3c0080;
+}
+
+.fajita {
+    height: 27px;
+    object-fit: cover;
+}
